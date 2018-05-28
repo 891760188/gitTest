@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\09_software\\61_nodeJs\\install\\nodejs\\node.exe',
+1 verbose cli   'D:\\09_software\\61_nodeJs\\install\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mysql' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of D:\09_software\61_nodeJs\iProjects\demo01\express\package.json
+5 verbose installManyTop reading scoped package data from D:\09_software\61_nodeJs\iProjects\demo01\express\node_modules\body-parser\package.json
+6 verbose installManyTop reading scoped package data from D:\09_software\61_nodeJs\iProjects\demo01\express\node_modules\cookie-parser\package.json
+7 verbose installManyTop reading scoped package data from D:\09_software\61_nodeJs\iProjects\demo01\express\node_modules\express\package.json
+8 verbose installManyTop reading scoped package data from D:\09_software\61_nodeJs\iProjects\demo01\express\node_modules\multer\package.json
+9 verbose readDependencies loading dependencies from D:\09_software\61_nodeJs\iProjects\demo01\express\package.json
+10 silly cache add args [ 'mysql', null ]
+11 verbose cache add spec mysql
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'mysql',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'mysql',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: 'latest',
+12 silly cache add   type: 'tag' }
+13 silly addNamed mysql@latest
+14 verbose addNamed "latest" is being treated as a dist-tag for mysql
+15 info addNameTag [ 'mysql', 'latest' ]
+16 silly mapToRegistry name mysql
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'mysql',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   name: 'mysql',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/mysql
+21 verbose addNameTag registry:https://registry.npmjs.org/mysql not in flight; fetching
+22 verbose request uri https://registry.npmjs.org/mysql
+23 verbose request no auth needed
+24 info attempt registry request try #1 at 16:59:16
+25 verbose request id 961af6a997dda05c
+26 http request GET https://registry.npmjs.org/mysql
+27 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+28 info attempt registry request try #2 at 16:59:26
+29 http request GET https://registry.npmjs.org/mysql
+30 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+31 info attempt registry request try #3 at 17:00:26
+32 http request GET https://registry.npmjs.org/mysql
+33 verbose stack Error: getaddrinfo ENOENT registry.npmjs.org:443
+33 verbose stack     at Object.exports._errnoException (util.js:870:11)
+33 verbose stack     at errnoException (dns.js:32:15)
+33 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+34 verbose cwd D:\09_software\61_nodeJs\iProjects\demo01\express
+35 error Windows_NT 10.0.16299
+36 error argv "D:\\09_software\\61_nodeJs\\install\\nodejs\\node.exe" "D:\\09_software\\61_nodeJs\\install\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mysql"
+37 error node v4.4.3
+38 error npm  v2.15.1
+39 error code ENOENT
+40 error errno ENOENT
+41 error syscall getaddrinfo
+42 error enoent getaddrinfo ENOENT registry.npmjs.org:443
+42 error enoent This is most likely not a problem with npm itself
+42 error enoent and is related to npm not being able to find a file.
+43 verbose exit [ 1, true ]
